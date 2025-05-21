@@ -173,7 +173,7 @@ const storage = multer.diskStorage({
 const upload = multer({ storage: storage });
 
 // Replace this with your actual ngrok FastAPI backend URL
-const FASTAPI_URL = 'https://94bc-34-83-187-165.ngrok-free.app/translate/';  // <--- Set your FastAPI URL here
+const FASTAPI_URL = 'https://68d2-34-21-48-84.ngrok-free.app/translate/';  // <--- Set your FastAPI URL here
 
 // Route to handle text translation
 app.post('/translate', async (req, res) => {
