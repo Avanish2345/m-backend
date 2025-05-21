@@ -159,8 +159,8 @@ const app = express();
 const port = process.env.PORT || 5000;  // Important for Render
 
 // Replace this URL with your **actual frontend URL deployed on Render**
-const FRONTEND_URL = 'https://my-frontend-x21h.onrender.com';  // <--- Set your frontend URL here
-
+//const FRONTEND_URL = 'https://my-frontend-x21h.onrender.com';  // <--- Set your frontend URL here
+const FRONTEND_URL = 'https://language-translation-2-izus.onrender.com';
 // Allow CORS only from your deployed frontend
 app.use(cors({ origin: FRONTEND_URL }));
 app.use(express.json());
